@@ -37,7 +37,7 @@ class HAMLPlugin extends Plugin
     public function onPluginsInitialized()
     {
         require_once __DIR__ . '/vendor/autoload.php';
-
+        require_once __DIR__ . '/GravHamlLoader.php';
         // Don't proceed if we are in the admin plugin
         if ($this->isAdmin()) {
             return;
