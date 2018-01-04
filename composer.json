@@ -1,0 +1,5 @@
+{
+  "require": {
+    "mthaml/mthaml":"~1.8"
+  }
+}
